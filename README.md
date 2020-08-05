@@ -54,8 +54,8 @@ MariaDB [db_spring]> desc TB_EMPLOYEE;
 
 ## How to comsume API ? Try it on dq5rocks.com  && ScreenShot
 
-不要忘記把 'http://localhost:8080' 換成 'https://www.dq5rockcs.com/apiez01' 喔
-don't forget replace 'http://localhost:8080' with 'https://www.dq5rockcs.com/apiez01'
+不要忘記把 'http://localhost:8080' 換成 'https://www.dq5rockcs.com' 喔  
+don't forget replace 'http://localhost:8080' with 'https://www.dq5rockcs.com'  
 
 Create 4 users :  
 ![Create Employee 1](https://www.dq5rocks.com/images/create_employee_01.jpg?raw=true "Title")  
