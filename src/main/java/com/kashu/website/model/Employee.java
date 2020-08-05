@@ -28,9 +28,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
  */
 
 @Entity
-//@Indexed
 @Table(name = "TB_EMPLOYEE")
-//@Table(name = "TB_EMPLOYEE",indexes = {@Index(columnList = "name", name = "name_idx")})
 public class Employee {
 
 	@Id
@@ -39,7 +37,6 @@ public class Employee {
 	private int id;
 	
 	@Column(name = "name")
-	//@Field(index=Index.YES, analyze=Analyze.YES, store=Store.NO)
 	@NotNull
 	private String name;
 	

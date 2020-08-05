@@ -18,10 +18,6 @@ import com.kashu.website.service.EmployeeService;
 @RestController
 public class EmployeeRestController {
 
-	//@Autowired
-	//@Qualifier("hibernateImpl")
-	//private ObjectRepository<Employee> repository;
-	
 	@Autowired
 	@Qualifier("employeeServiceImpl")
 	private EmployeeService employeeService;
@@ -60,8 +56,5 @@ public class EmployeeRestController {
 	@PutMapping("/rest/employee/update/{id}")
 	public Employee updateEmployeeByID(@RequestBody Employee e, @PathVariable("id") int id) {
 		return employeeService.update(id, e); 
-		//employeeService.update(id, e);
-		//Employee updated_employee = employeeService.getOne(id);
-		//return updated_employee ;
 	}
 }

@@ -1,7 +1,6 @@
 package com.kashu.website.repository;
 
 import java.util.List;
-import com.kashu.website.model.Employee;
 
 public interface ObjectRepository<T> {
 
@@ -9,9 +8,9 @@ public interface ObjectRepository<T> {
 
 	public T retrieve(int id);
 	
-	public List<Employee> getAll();
+	public List<T> getAll();
 
-	public List<Employee> search(String name);
+	public List<T> search(String name);
 
 	public T delete(int id);
 	

@@ -13,7 +13,6 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new Class[] {
             AppContext.class
         };
-        //return null;
     }
 
     @Override
